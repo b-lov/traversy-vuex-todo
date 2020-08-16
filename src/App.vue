@@ -1,16 +1,19 @@
 <template>
   <div id="app">
+    <AddTodo />
     <Todos />
   </div>
 </template>
 
 <script>
   import Todos from './components/Todos';
+  import AddTodo from './components/AddTodo';
 
   export default {
     name: 'App',
     components: {
       Todos,
+      AddTodo,
     },
   };
 </script>
